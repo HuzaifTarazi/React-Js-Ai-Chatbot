@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const App = () => {
     const [prompt, setPrompt] = useState('')
-    const [savePrompt, setSavePrompt] = useState([{ role: 'user', userPrompt: 'i am promt' }, { role: 'model', userPrompt: 'i am promt response' }, { role: 'user', userPrompt: 'i am promt' },{ role: 'user', userPrompt: 'i am promt' }, { role: 'model', userPrompt: 'i am promt response' }, { role: 'user', userPrompt: 'i am promt' },{ role: 'user', userPrompt: 'i am promt' }, { role: 'model', userPrompt: 'i am promt response' }, { role: 'user', userPrompt: 'i am promt' },{ role: 'user', userPrompt: 'i am promt' }, { role: 'model', userPrompt: 'i am promt response' }, { role: 'user', userPrompt: 'i am promt' }])
+    const [savePrompt, setSavePrompt] = useState([{ role: 'user', userPrompt: 'i am promt' }, { role: 'model', userPrompt: 'i am promt response' }, { role: 'user', userPrompt: 'i am promt' }, { role: 'user', userPrompt: 'i am promt' }, { role: 'model', userPrompt: 'i am promt response' }, { role: 'user', userPrompt: 'i am promt' }, { role: 'user', userPrompt: 'i am promt' }, { role: 'model', userPrompt: 'i am promt response' }, { role: 'user', userPrompt: 'i am promt' }, { role: 'user', userPrompt: 'i am promt' }, { role: 'model', userPrompt: 'i am promt response' }, { role: 'user', userPrompt: 'i am promt' }])
 
     const formHandle = (e) => {
         e.preventDefault()
@@ -25,7 +25,7 @@ const App = () => {
                             <div className={`flex flex-row ${element.role === 'user' ? 'justify-end' : 'hidden'} `}>
                                 <div className={`flex flex-row justify-end items-end gap-2`}>
                                     <span className='s bg-blue-700 text-md rounded-t-lg rounded-l-lg py-1.5 px-2'>sdf</span>
-                                    <span className='bg-blue-500 py-1.5 px-2.5  rounded-full text-sm font-bold'>G</span>
+                                    <span className='bg-blue-500 py-1.5 px-2.5  rounded-full text-sm font-bold'>fd</span>
                                 </div>
                             </div>
 
