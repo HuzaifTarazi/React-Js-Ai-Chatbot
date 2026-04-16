@@ -19,7 +19,7 @@ const App = () => {
                     <span className='bg-blue-500 py-1.5 px-2.5  rounded-full text-sm font-bold'>G</span>
                     <span className='mx-2 font-semibold text-blue-400 text-lg'>.T Chatbot</span>
                 </div>
-                <div className='overflow-auto p-5 flex flex-col justify-start gap-4'>
+                <div className='overflow-auto scrollbar-custom p-5 flex flex-col justify-start gap-4'>
                     {savePrompt.map((element, idx) => {
                         return (<>
                             <div className={`flex flex-row ${element.role === 'user' ? 'justify-end' : 'hidden'} `}>
